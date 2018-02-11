@@ -28,9 +28,6 @@ public class Main {
                     while (true) {
                         String recieve = scanner.nextLine();
                         System.out.println(recieve);
-                        String string = "Echo: " + recieve;
-                        printWriter.println(string);
-                        printWriter.flush();
                     }
                 }
             }).start();
